@@ -6,7 +6,7 @@ LogFile = { }
 Main = { }
 
 function Ask_Information()
-	local data = { server = "localhost", user = "root", password = "oklahoma", database = "master2pc", communication = "true", calibration = "true" }
+	local data = { server = "localhost", user = "root", password = "", database = "master2pc", communication = "true", calibration = "true" }
 	io.write("MySQL Server ("..data.server.."): ")
 	io.flush()
 	local temp = io.read()
