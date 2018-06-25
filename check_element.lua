@@ -220,10 +220,10 @@ function Calibration:ScanSensor()
 					LogFile:Write("Sensor "..sensor.." : "..result, 3)
 					local cm = self:Get_Calibration_From_String(result)
 					if cm then
-						if not avg[cm] then avg[cm] = { nbr = 0, cm = cm } end
+						if not avg[cm] then avg[cm] = { nbr = 0, distance = cm } end
 						avg[cm] =  {
 							nbr =  avg[cm].nbr + 1,
-							cm = cm
+							distance = cm
 						}
 						sensors[sensor] = {
 							id = sensor,
@@ -251,16 +251,14 @@ end
 
 function Calibration:Write_Average_Calibration(a, b)
 	local avg = 0
-	local nbr = Main:tableLength(a)
-
 	local max = 0
 	for _, i in pairs (a) do
-		if i.nbr > max then
+		if i.distance and i.nbr > max then
 			max = i.nbr
-			avg = i.cm
+			avg = i.distance
 		end
 	end
-	avg = avg / Main:tableLength(a)
+
 	LogFile:Write("Calibation average: "..avg, 3)
 
 	local string = ""
