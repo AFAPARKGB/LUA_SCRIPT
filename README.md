@@ -17,11 +17,11 @@ Script require `LUA` and `LUA-SQL-MYSQL` extension.
   
 ### EXAMPLE OF USE
 * Run the script
-  * `sudo lua check_element.lua`<br />
-* Fill the information asked by the script
-  `MySQL Server (localhost):`<br /> Let empty for default value -> localhost
-  `MySQL User (root):`<br /> Let empty for default value -> root
-  `MySQL Password ():`<br /> Fill MySQL password
-  `MySQL Database (master2pc):`<br /> Let empty for default value -> master2pc
-  `Check Calibration (true):`<br /> Let empty for default value -> true
-  `Check communication (true):`<br /> Let empty for default value -> true
+  * `sudo lua check_element.lua`
+* Fill the information asked by the script <br />
+  `MySQL Server (localhost):` Let empty for default value -> localhost <br />
+  `MySQL User (root):` Let empty for default value -> root <br />
+  `MySQL Password ():` Fill MySQL password <br />
+  `MySQL Database (master2pc):` Let empty for default value -> master2pc <br />
+  `Check Calibration (true):` Let empty for default value -> true <br />
+  `Check communication (true):`  Let empty for default value -> true <br />
