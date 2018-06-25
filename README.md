@@ -8,10 +8,10 @@ Script require `LUA` and `LUA-SQL-MYSQL` extension.
 * `sudo apt-get install git` Install github package
 
 # SETUP ON UBUNTU 14
-1. Clone the project
+* Clone the project
   * `git clone https://github.com/AFAPARKGB/LUA_SCRIPT/`
-1. Move into the folder and make `setconfig` executable
+* Move into the folder and make `setconfig` executable
   * `cd LUA_SCRIPT/`
   * `sudo chmod 777 setconfig`
-1. Run lua script
+* Run lua script
   * `sudo lua check_element.lua`
