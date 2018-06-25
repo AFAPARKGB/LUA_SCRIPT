@@ -146,12 +146,12 @@ function Main:Split(s)
     return result;
 end
 
-function Main:CommunicationPrint(line, concentrator, element, elementNumber, maxNumber)
+function Main:CommunicationPrint(line, concentrator, element, elementNumber)
 	os.execute("clear")
 	print("-- TEST COMMUNICATION PROGRESS --")
 	print("Line: "..line)
 	print("Concentrator: "..concentrator)
-	if element then print(element..": "..elementNumber.."/"..maxNumber) end
+	if element then print(element..": "..elementNumber) end
 end
 
 function Main:CalibrationPrint(line, concentrator, elementNumber, maxNumber)
@@ -159,7 +159,7 @@ function Main:CalibrationPrint(line, concentrator, elementNumber, maxNumber)
 	print("-- GET CALIBRATION PROGRESS --")
 	print("Line: "..line)
 	print("Concentrator: "..concentrator)
-	if element then print("Sensor: "..elementNumber.."/"..maxNumber) end
+	print("Sensor: "..elementNumber)
 end
 
 ----------------------------------------------------------------------------------
@@ -215,12 +215,16 @@ function Calibration:ScanSensor()
 				local avg = { }
 				local sensors = { }
 				for uid, sensor in pairs (line.concentrator[concentrator.id].sensor) do
-					Main:CalibrationPrint(line.id, concentrator.id , sensor, Main:tableLength(line.concentrator[concentrator.id].sensor))
+					Main:CalibrationPrint(line.id, concentrator.id , sensor)
 					local result = self:Calibration_Sensor(line.id, sensor)
 					LogFile:Write("Sensor "..sensor.." : "..result, 3)
 					local cm = self:Get_Calibration_From_String(result)
 					if cm then
-						table.insert(avg, cm)
+						if not avg[cm] then avg[cm] = { nbr = 0, cm = cm } end
+						avg[cm] =  {
+							nbr =  avg[cm].nbr + 1,
+							cm = cm
+						}
 						sensors[sensor] = {
 							id = sensor,
 							cm = cm
@@ -248,9 +252,13 @@ end
 function Calibration:Write_Average_Calibration(a, b)
 	local avg = 0
 	local nbr = Main:tableLength(a)
+
+	local max = 0
 	for _, i in pairs (a) do
-		if i < 700 then avg = avg + i
-		else nbr = nbr - 1 end
+		if i.nbr > max then
+			max = i.nbr
+			avg = i.cm
+		end
 	end
 	avg = avg / Main:tableLength(a)
 	LogFile:Write("Calibation average: "..avg, 3)
@@ -309,7 +317,7 @@ function Communication:ScanConcentrator()
 		local concentratorWarning = { }
 		local concentratorBoot = { }
 		for uid, concentrator in Main:spairs(line.concentrator, function(t,a,b) return t[b].id > t[a].id end) do
-			Main:CommunicationPrint(line.id, concentrator.id, nil , nil, nil)
+			Main:CommunicationPrint(line.id, concentrator.id, nil)
 			local result, version = self:Communication_Concentrator(line.id, concentrator.id)
 			LogFile:Write("Concentrator "..concentrator.id.." : "..result.."% Packet Lose".." - "..version, 2)
 			if result == 100 then
@@ -403,7 +411,7 @@ function Communication:ScanSensor()
 					local sensorError = { }
 					local sensorWarning = { }
 					for uid, sensor in pairs (line.concentrator[concentrator.id].sensor) do
-						Main:CommunicationPrint(line.id, concentrator.id, "Sensor" , sensor, Main:tableLength(line.concentrator[concentrator.id].sensor))
+						Main:CommunicationPrint(line.id, concentrator.id, "Sensor" , sensor)
 						local result, version = self:Communication_Sensor(line.id, sensor)
 						LogFile:Write("Sensor "..sensor.." : "..result.."% Packet Lose".." - "..version, 2)
 						i = i + 1
@@ -489,7 +497,7 @@ function Communication:ScanVms()
 					local vmsError = { }
 					local vmsWarning = { }
 					for uid, vms in pairs (line.concentrator[concentrator.id].vms) do
-						Main:CommunicationPrint(line.id, concentrator.id, "VMS" , vms, Main:tableLength(line.concentrator[concentrator.id].vms))
+						Main:CommunicationPrint(line.id, concentrator.id, "VMS" , vms)
 						local result, version = self:Communication_Vms(line.id, vms)
 						LogFile:Write("VMS "..vms.." : "..result.."% Packet Lose".." - "..version, 2)
 						i = i + 1
@@ -576,7 +584,7 @@ function Communication:ScanVmsSortie()
 					local vmssortieError = { }
 					local vmssortieWarning = { }
 					for uid, vms in pairs (line.concentrator[concentrator.id].vmssorties) do
-						Main:CommunicationPrint(line.id, concentrator.id, "VMS Sortie" , vms, Main:tableLength(line.concentrator[concentrator.id].vmssorties))
+						Main:CommunicationPrint(line.id, concentrator.id, "VMS Sortie" , vms)
 						local result, version = self:Communication_VmsSortie(line.id, vms)
 						LogFile:Write("VMS Sortie "..vms.." : "..result.."% Packet Lose".." - "..version, 2)
 						i = i + 1
@@ -661,7 +669,7 @@ function Communication:ScanAFA()
 					local afaError = { }
 					local afaWarning = { }
 					for uid, fc in pairs (line.concentrator[concentrator.id].fc) do
-						Main:CommunicationPrint(line.id, concentrator.id, "AFALINK" , fc, Main:tableLength(line.concentrator[concentrator.id].fc))
+						Main:CommunicationPrint(line.id, concentrator.id, "AFALINK" , fc)
 						local result, version = self:Communication_AFALINK(line.id, fc)
 						LogFile:Write("AFALINK "..fc.." : "..result.."% Packet Lose".." - "..version, 2)
 						if result == 100 then
