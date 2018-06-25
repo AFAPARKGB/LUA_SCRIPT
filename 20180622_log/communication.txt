@@ -1,0 +1,1274 @@
+-----[ LINE 0 - CONCENTRATOR ]-----
+Concentrator 20 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 22 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 24 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 26 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 28 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 30 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 32 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 34 : 5% Packet Lose - Version = vKAv50x4
+Concentrator 36 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 38 : 0% Packet Lose - Version = vKAv50x9
+Concentrator 40 : 0% Packet Lose - Version = vKAv50x9
+Concentrator 42 : 0% Packet Lose - Version = vKAv50x4
+Concentrator with no commnication number: 0
+Concentrator with bad communication number: 1
+Concentrator with bad commnication address list: 34
+Concentrator in bootloader number: 0
+
+-----[ LINE 1 - CONCENTRATOR ]-----
+Concentrator 2 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 4 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 6 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 8 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 10 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 12 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 14 : 0% Packet Lose - Version = vKAv41.7
+Concentrator 16 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 18 : 0% Packet Lose - Version = vKAv50x4
+Concentrator 72 : 100% Packet Lose - Version: not available
+Concentrator with no commnication number: 1
+Concentrator with no commnication address list: 72
+Concentrator with bad communication number: 0
+Concentrator in bootloader number: 0
+
+-----[ LINE 0 - CONCENTRATOR 20 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 22 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor 49 : 0% Packet Lose - V = CU5k1.1
+Sensor 50 : 0% Packet Lose - V = CU5k1.1
+Sensor 51 : 0% Packet Lose - V = CU5k1.1
+Sensor 52 : 0% Packet Lose - V = CU5k1.1
+Sensor 53 : 0% Packet Lose - V = CU5k1.1
+Sensor 54 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 24 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor 49 : 0% Packet Lose - V = CU5k1.1
+Sensor 50 : 0% Packet Lose - V = CU5k1.1
+Sensor 51 : 0% Packet Lose - V = CU5k1.1
+Sensor 52 : 0% Packet Lose - V = CU5k1.1
+Sensor 53 : 0% Packet Lose - V = CU5k1.1
+Sensor 54 : 0% Packet Lose - V = CU5k1.1
+Sensor 55 : 0% Packet Lose - V = CU5k1.1
+Sensor 56 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 26 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5v1.2
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5v1.2
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 5% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor 49 : 0% Packet Lose - V = CU5k1.1
+Sensor 50 : 0% Packet Lose - V = CU5k1.1
+Sensor 51 : 0% Packet Lose - V = CU5k1.1
+Sensor 52 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 1
+Sensor with bad commnication address list: 33
+
+-----[ LINE 0 - CONCENTRATOR 28 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5v1.2
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor 49 : 0% Packet Lose - V = CU5k1.1
+Sensor 50 : 0% Packet Lose - V = CU5k1.1
+Sensor 51 : 0% Packet Lose - V = CU5k1.1
+Sensor 52 : 0% Packet Lose - V = CU5k1.1
+Sensor 53 : 0% Packet Lose - V = CU5k1.1
+Sensor 54 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 30 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 32 - SENSOR ]-----
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 34 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor 49 : 0% Packet Lose - V = CU5k1.1
+Sensor 50 : 0% Packet Lose - V = CU5k1.1
+Sensor 51 : 0% Packet Lose - V = CU5k1.1
+Sensor 52 : 0% Packet Lose - V = CU5k1.1
+Sensor 53 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 36 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 38 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 40 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor 49 : 0% Packet Lose - V = CU5k1.1
+Sensor 50 : 0% Packet Lose - V = CU5k1.1
+Sensor 51 : 0% Packet Lose - V = CU5k1.1
+Sensor 52 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 2 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 5% Packet Lose - V = CU5k1.1
+Sensor 7 : 5% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 5% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 3
+Sensor with bad commnication address list: 7, 27, 6
+
+-----[ LINE 1 - CONCENTRATOR 4 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor 49 : 0% Packet Lose - V = CU5k1.1
+Sensor 50 : 0% Packet Lose - V = CU5k1.1
+Sensor 51 : 0% Packet Lose - V = CU5k1.1
+Sensor 52 : 0% Packet Lose - V = CU5k1.1
+Sensor 53 : 0% Packet Lose - V = CU5k1.1
+Sensor 54 : 0% Packet Lose - V = CU5k1.1
+Sensor 55 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 6 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.5
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor 49 : 0% Packet Lose - V = CU5k1.1
+Sensor 50 : 0% Packet Lose - V = CU5k1.1
+Sensor 51 : 0% Packet Lose - V = CU5k1.1
+Sensor 52 : 0% Packet Lose - V = CU5k1.1
+Sensor 53 : 0% Packet Lose - V = CU5k1.1
+Sensor 54 : 0% Packet Lose - V = CU5k1.1
+Sensor 55 : 0% Packet Lose - V = CU5k1.5
+Sensor 56 : 0% Packet Lose - V = CU5k1.1
+Sensor 57 : 0% Packet Lose - V = CU5k1.1
+Sensor 58 : 0% Packet Lose - V = CU5k1.1
+Sensor 59 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 8 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = v50x4
+Sensor 6 : 0% Packet Lose - Version: not available
+Sensor 7 : 0% Packet Lose - Version: not available
+Sensor 8 : 0% Packet Lose - Version: not available
+Sensor 9 : 0% Packet Lose - Version: not available
+Sensor 10 : 0% Packet Lose - Version: not available
+Sensor 11 : 0% Packet Lose - Version: not available
+Sensor 12 : 0% Packet Lose - Version: not available
+Sensor 13 : 0% Packet Lose - Version: not available
+Sensor 14 : 0% Packet Lose - Version: not available
+Sensor 15 : 0% Packet Lose - Version: not available
+Sensor 16 : 0% Packet Lose - Version: not available
+Sensor 17 : 0% Packet Lose - Version: not available
+Sensor 18 : 0% Packet Lose - Version: not available
+Sensor 19 : 0% Packet Lose - Version: not available
+Sensor 20 : 0% Packet Lose - Version: not available
+Sensor 21 : 0% Packet Lose - Version: not available
+Sensor 22 : 0% Packet Lose - Version: not available
+Sensor 23 : 0% Packet Lose - Version: not available
+Sensor 24 : 0% Packet Lose - Version: not available
+Sensor 25 : 0% Packet Lose - Version: not available
+Sensor 26 : 0% Packet Lose - Version: not available
+Sensor 27 : 0% Packet Lose - Version: not available
+Sensor 28 : 0% Packet Lose - Version: not available
+Sensor 29 : 0% Packet Lose - Version: not available
+Sensor 30 : 0% Packet Lose - Version: not available
+Sensor 31 : 0% Packet Lose - Version: not available
+Sensor 32 : 0% Packet Lose - Version: not available
+Sensor 33 : 0% Packet Lose - Version: not available
+Sensor 34 : 0% Packet Lose - Version: not available
+Sensor 35 : 0% Packet Lose - Version: not available
+Sensor 36 : 0% Packet Lose - Version: not available
+Sensor 37 : 0% Packet Lose - Version: not available
+Sensor 38 : 0% Packet Lose - Version: not available
+Sensor 39 : 0% Packet Lose - Version: not available
+Sensor 40 : 0% Packet Lose - Version: not available
+Sensor 41 : 0% Packet Lose - Version: not available
+Sensor 42 : 0% Packet Lose - Version: not available
+Sensor 43 : 0% Packet Lose - Version: not available
+Sensor 44 : 0% Packet Lose - Version: not available
+Sensor 45 : 0% Packet Lose - Version: not available
+Sensor 46 : 0% Packet Lose - Version: not available
+Sensor 47 : 0% Packet Lose - Version: not available
+Sensor 48 : 0% Packet Lose - Version: not available
+Sensor 49 : 0% Packet Lose - Version: not available
+Sensor 50 : 0% Packet Lose - Version: not available
+Sensor 51 : 0% Packet Lose - Version: not available
+Sensor 52 : 0% Packet Lose - Version: not available
+Sensor 53 : 0% Packet Lose - Version: not available
+Sensor 54 : 0% Packet Lose - Version: not available
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 10 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor 49 : 0% Packet Lose - V = CU5k1.1
+Sensor 50 : 0% Packet Lose - V = CU5k1.1
+Sensor 51 : 0% Packet Lose - V = CU5k1.1
+Sensor 52 : 0% Packet Lose - V = CU5k1.1
+Sensor 53 : 0% Packet Lose - V = CU5k1.1
+Sensor 54 : 0% Packet Lose - V = CU5k1.1
+Sensor 55 : 0% Packet Lose - V = CU5k1.1
+Sensor 56 : 0% Packet Lose - V = CU5k1.1
+Sensor 57 : 0% Packet Lose - V = CU5k1.1
+Sensor 58 : 0% Packet Lose - V = CU5k1.1
+Sensor 59 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 12 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor 49 : 0% Packet Lose - V = CU5k1.1
+Sensor 50 : 0% Packet Lose - V = CU5k1.1
+Sensor 51 : 0% Packet Lose - V = CU5k1.1
+Sensor 52 : 0% Packet Lose - V = CU5k1.1
+Sensor 53 : 0% Packet Lose - V = CU5k1.1
+Sensor 54 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 14 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 5% Packet Lose - V = CU5k1.1
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor 49 : 0% Packet Lose - V = CU5k1.1
+Sensor 50 : 0% Packet Lose - V = CU5k1.1
+Sensor 51 : 0% Packet Lose - V = CU5k1.1
+Sensor 52 : 0% Packet Lose - V = CU5k1.1
+Sensor 53 : 0% Packet Lose - V = CU5k1.1
+Sensor 54 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 1
+Sensor with bad commnication address list: 45
+
+-----[ LINE 1 - CONCENTRATOR 16 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 37 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 41 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor 43 : 0% Packet Lose - V = CU5k1.1
+Sensor 44 : 0% Packet Lose - V = CU5k1.1
+Sensor 45 : 0% Packet Lose - V = CU5k1.1
+Sensor 46 : 0% Packet Lose - V = CU5k1.1
+Sensor 47 : 0% Packet Lose - V = CU5k1.1
+Sensor 48 : 0% Packet Lose - V = CU5k1.1
+Sensor 49 : 0% Packet Lose - V = CU5k1.1
+Sensor 50 : 0% Packet Lose - V = CU5k1.1
+Sensor 51 : 0% Packet Lose - V = CU5k1.1
+Sensor 52 : 0% Packet Lose - V = CU5k1.1
+Sensor 53 : 0% Packet Lose - V = CU5k1.1
+Sensor 54 : 0% Packet Lose - V = CU5k1.1
+Sensor 55 : 0% Packet Lose - V = CU5k1.1
+Sensor 56 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 18 - SENSOR ]-----
+Sensor 1 : 0% Packet Lose - V = CU5k1.1
+Sensor 2 : 0% Packet Lose - V = CU5k1.1
+Sensor 3 : 0% Packet Lose - V = CU5k1.1
+Sensor 4 : 0% Packet Lose - V = CU5k1.1
+Sensor 5 : 0% Packet Lose - V = CU5k1.1
+Sensor 6 : 0% Packet Lose - V = CU5k1.1
+Sensor 7 : 0% Packet Lose - V = CU5k1.1
+Sensor 8 : 0% Packet Lose - V = CU5k1.1
+Sensor 9 : 0% Packet Lose - V = CU5k1.1
+Sensor 10 : 0% Packet Lose - V = CU5k1.1
+Sensor 11 : 0% Packet Lose - V = CU5k1.1
+Sensor 12 : 0% Packet Lose - V = CU5k1.1
+Sensor 13 : 0% Packet Lose - V = CU5k1.1
+Sensor 14 : 0% Packet Lose - V = CU5k1.1
+Sensor 15 : 0% Packet Lose - V = CU5k1.1
+Sensor 16 : 0% Packet Lose - V = CU5k1.1
+Sensor 17 : 0% Packet Lose - V = CU5k1.1
+Sensor 18 : 0% Packet Lose - V = CU5k1.1
+Sensor 19 : 0% Packet Lose - V = CU5k1.1
+Sensor 20 : 0% Packet Lose - V = CU5k1.1
+Sensor 21 : 0% Packet Lose - V = CU5k1.1
+Sensor 22 : 0% Packet Lose - V = CU5k1.1
+Sensor 23 : 0% Packet Lose - V = CU5k1.1
+Sensor 24 : 0% Packet Lose - V = CU5k1.1
+Sensor 25 : 0% Packet Lose - V = CU5k1.1
+Sensor 26 : 0% Packet Lose - V = CU5k1.1
+Sensor 27 : 0% Packet Lose - V = CU5k1.1
+Sensor 28 : 0% Packet Lose - V = CU5k1.1
+Sensor 29 : 0% Packet Lose - V = CU5k1.1
+Sensor 30 : 0% Packet Lose - V = CU5k1.1
+Sensor 31 : 0% Packet Lose - V = CU5k1.1
+Sensor 32 : 0% Packet Lose - V = CU5k1.1
+Sensor 33 : 0% Packet Lose - V = CU5k1.1
+Sensor 34 : 0% Packet Lose - V = CU5k1.1
+Sensor 35 : 0% Packet Lose - V = CU5k1.1
+Sensor 36 : 0% Packet Lose - V = CU5k1.1
+Sensor 38 : 0% Packet Lose - V = CU5k1.1
+Sensor 39 : 0% Packet Lose - V = CU5k1.1
+Sensor 40 : 0% Packet Lose - V = CU5k1.1
+Sensor 42 : 0% Packet Lose - V = CU5k1.1
+Sensor with no commnication number: 0
+Sensor with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 22 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = ¬¬
+VMS 4 : 0% Packet Lose - V = ˜¬¬
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 24 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 26 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = C3v1.1
+VMS 4 : 5% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 1
+Vms with bad commnication address list: 4
+
+-----[ LINE 0 - CONCENTRATOR 28 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 30 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = C3v1.1
+VMS 4 : 0% Packet Lose - V = C3v1.1
+VMS 5 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 32 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 34 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = C3v1.1
+VMS 4 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 36 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 4 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 38 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = C3v1.1
+VMS 4 : 0% Packet Lose - V = C3v1.1
+VMS 5 : 0% Packet Lose - V = C3v1.1
+VMS 6 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 40 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = TC3v4.3
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 2 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = C3v1.1
+VMS 4 : 0% Packet Lose - V = C3v1.1
+VMS 5 : 0% Packet Lose - V = C3v1.1
+VMS 6 : 0% Packet Lose - V = C3v1.1
+VMS 7 : 0% Packet Lose - Version: not available
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 4 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = C3v1.1
+VMS 4 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 6 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 8 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 12 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 14 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 16 - VMS ]-----
+VMS 1 : 0% Packet Lose - V = C3v1.1
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 1 - CONCENTRATOR 18 - VMS ]-----
+VMS 0 : 0% Packet Lose - V = C3v1.1
+VMS 1 : 0% Packet Lose - V = C3v1.1
+VMS 2 : 0% Packet Lose - V = C3v1.1
+VMS 3 : 0% Packet Lose - V = C3v1.1
+VMS 4 : 0% Packet Lose - Version: not available
+Vms with no commnication number: 0
+Vms with bad communication number: 0
+
+-----[ LINE 0 - CONCENTRATOR 42 - FC ]-----
+AFALINK 1 : 0% Packet Lose - V = AL2F3B1
+FC Sensor 1 : 0% Packet Lose - V = CU5vFC1
+FC Sensor 2 : 0% Packet Lose - V = CU5vFC1
+FC Sensor 3 : 0% Packet Lose - V = CU5vFC1
+FC Sensor with no commnication number: 0
+FC Sensor with bad communication number: 0
+
+AFALINK 2 : 0% Packet Lose - V = AL2F3B1
+FC Sensor 1 : 0% Packet Lose - V = CU5vFC1
+FC Sensor 2 : 0% Packet Lose - V = CU5vFC1
+FC Sensor 3 : 0% Packet Lose - V = CU5vFC1
+FC Sensor with no commnication number: 0
+FC Sensor with bad communication number: 0
+
+AFALINK with no commnication number: 0
+Vms with bad communication number: 0
+
+
