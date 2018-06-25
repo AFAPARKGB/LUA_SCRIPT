@@ -7,7 +7,7 @@ Script require `LUA` and `LUA-SQL-MYSQL` extension.
 * `sudo apt-get install lua-sql-mysql` Install mysql extension for LUA
 * `sudo apt-get install git` Install github package
 
-# SETUP ON UBUNTU 14
+## SETUP ON UBUNTU 14
 * Clone the project
   * `git clone https://github.com/AFAPARKGB/LUA_SCRIPT/`
 * Move into the folder and make `setconfig` executable
