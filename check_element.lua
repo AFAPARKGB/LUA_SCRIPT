@@ -39,12 +39,26 @@ local openSlave = { }
 local openAFA = { }
 
 function Main:Init()
+	self:KillMaster()
+
 	LogFile:Init() 
 	local elements = Finder:Load()
 	if inputData.communication == "true" then Communication:Init(elements) end
 	if inputData.calibration == "true" then Calibration:Init(elements) end
 	LogFile:Close()
 	self:CheckForError()
+
+	self:StartMaster()
+end
+
+function Main:KillMaster()
+
+	os.execute("sudo killall -v /usr/bin/cli")
+end
+
+function Main:StartMaster()
+	
+	os.execute("sudo /home/master/master2pc/startupMaster.sh")
 end
 
 function Main:CheckForError()
