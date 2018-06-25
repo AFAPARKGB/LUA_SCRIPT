@@ -208,42 +208,42 @@ end
 function Calibration:ScanSensor()
 	for uid, line in Main:spairs(self.comLine, function(t,a,b) return t[b].id > t[a].id end) do
 		for uid, concentrator in Main:spairs(line.concentrator, function(t,a,b) return t[b].id > t[a].id end) do
-			LogFile:Write("-----[ LINE "..line.id.." - CONCENTRATOR " ..concentrator.id.." - SENSOR ]-----", 3)
-			local isOpen = Main:OpenConcentrator(line.id, concentrator.id)
-			if isOpen then
-				openSlave[concentrator.id] = concentrator.id
-				local avg = { }
-				local sensors = { }
-				for uid, sensor in pairs (line.concentrator[concentrator.id].sensor) do
-					Main:CalibrationPrint(line.id, concentrator.id , sensor)
-					local result = self:Calibration_Sensor(line.id, sensor)
-					LogFile:Write("Sensor "..sensor.." : "..result, 3)
-					local cm = self:Get_Calibration_From_String(result)
-					if cm then
-						if not avg[cm] then avg[cm] = { nbr = 0, distance = cm } end
-						avg[cm] =  {
-							nbr =  avg[cm].nbr + 1,
-							distance = cm
-						}
-						sensors[sensor] = {
-							id = sensor,
-							cm = cm
-						}
+			if Main:tableLength(line.concentrator[concentrator.id].sensor) > 0 then 
+				LogFile:Write("-----[ LINE "..line.id.." - CONCENTRATOR " ..concentrator.id.." - SENSOR ]-----", 3)
+				local isOpen = Main:OpenConcentrator(line.id, concentrator.id)
+				if isOpen then
+					openSlave[concentrator.id] = concentrator.id
+					local avg = { }
+					local sensors = { }
+					for uid, sensor in pairs (line.concentrator[concentrator.id].sensor) do
+						Main:CalibrationPrint(line.id, concentrator.id , sensor)
+						local result = self:Calibration_Sensor(line.id, sensor)
+						LogFile:Write("Sensor "..sensor.." : "..result, 3)
+						local cm = self:Get_Calibration_From_String(result)
+						if cm then
+							if not avg[cm] then avg[cm] = { nbr = 0, distance = cm } end
+							avg[cm] =  {
+								nbr =  avg[cm].nbr + 1,
+								distance = cm
+							}
+							sensors[sensor] = {
+								id = sensor,
+								cm = cm
+							}
+						end
 					end
-				end
-				local isClose= Main:CloseConcentrator(line.id, concentrator.id)
-				if not isClose then
-					LogFile:Write("WARNING: CONCENTRATOR "..concentrator.id.." NOT CLOSED", 3)
+					local isClose= Main:CloseConcentrator(line.id, concentrator.id)
+					if not isClose then
+						LogFile:Write("WARNING: CONCENTRATOR "..concentrator.id.." NOT CLOSED", 3)
+					else
+						openSlave[concentrator.id] = nil
+					end
+					self:Write_Average_Calibration(avg, sensors)
 				else
-					openSlave[concentrator.id] = nil
+					LogFile:Write("Can't open concentrator", 3)
 				end
-
-				self:Write_Average_Calibration(avg, sensors)
-
-			else
-				LogFile:Write("Can't open concentrator", 3)
+				LogFile:BackLine(3)
 			end
-			LogFile:BackLine(3)
 		end
 	end
 	LogFile:BackLine(3)
@@ -288,6 +288,7 @@ end
 function Calibration:Get_Calibration_From_String(str)
 	local a = Main:Split(str)
 	for i, b in pairs(a) do
+		print(i.." "..b)
 		if b == "cm" then 
 			local match = tonumber(a[i-1])
 			if match then return match end
