@@ -18,9 +18,9 @@ Script require `LUA` and `LUA-SQL-MYSQL` extension.
 ### EXAMPLE OF USE
 * Run the script
   * `sudo lua check_element.lua`
-    * `MySQL Server (localhost):`
-    * `MySQL User (root):`
-    * `MySQL Password ():`
-    * `MySQL Database (master2pc):`
-    * `Check Calibration (true):`
-    * `Check communication (true):`
+     `MySQL Server (localhost):`
+     `MySQL User (root):`
+     `MySQL Password ():`
+     `MySQL Database (master2pc):`
+     `Check Calibration (true):`
+     `Check communication (true):`
