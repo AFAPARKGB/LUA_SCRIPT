@@ -6,7 +6,7 @@ LogFile = { }
 Main = { }
 
 function Ask_Information()
-	local data = { server = "localhost", user = "root", password = "oklahoma", database = "master2pc", communication = "true", calibration = "true" }
+	local data = { server = "localhost", user = "root", password = "", database = "master2pc", communication = "true", calibration = "true" }
 	io.write("MySQL Server ("..data.server.."): ")
 	io.flush()
 	local temp = io.read()
@@ -91,7 +91,6 @@ function Main:OpenConcentrator(line, concentrator)
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_115200_ -+ "..concentrator..":1")
 		local result = handle:read("*a")
 		if not string.find(result, "OK") then
-			LogFile:Debug("Openned Concentrator: "..concentrator) 
 			handle:close()
 			return true 
 		end
@@ -105,7 +104,6 @@ function Main:CloseConcentrator(line, concentrator)
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_57600_ -+ "..concentrator..":0")
 		local result = handle:read("*a")
 		if not string.find(result, "OK") then 
-			LogFile:Debug("Closed Concentrator: "..concentrator) 
 			handle:close()
 			return true 
 		end
@@ -119,7 +117,6 @@ function Main:OpenAfalink(line, afa)
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_57600_ -$ o:"..afa)
 		local result = handle:read("*a")
 		if not string.find(result, "No anwser") or not string.find(result, "error")  then
-			LogFile:Debug("Openned afalink: "..afa) 
 			handle:close()
 			return true 
 		end
@@ -133,7 +130,6 @@ function Main:CloseAfalink(line, afa)
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_57600_ -$ c:"..afa)
 		local result = handle:read("*a")
 		if not string.find(result, "No anwser") or not string.find(result, "error")  then
-			LogFile:Debug("Closed afalink: "..afa) 
 			handle:close()
 			return true 
 		end
@@ -202,11 +198,6 @@ function LogFile:BackLine(file)
 	end
 end
 
-function LogFile:Debug(txt)
-	--if self.debug ~= "true" then return end
-	print(txt)
-end
-
 ----------------------------------------------------------------------------------
 
 function Calibration:Init(table)
@@ -215,7 +206,6 @@ function Calibration:Init(table)
 end
 
 function Calibration:ScanSensor()
-	LogFile:Debug("Checking sensors calibration ...")
 	for uid, line in Main:spairs(self.comLine, function(t,a,b) return t[b].id > t[a].id end) do
 		for uid, concentrator in Main:spairs(line.concentrator, function(t,a,b) return t[b].id > t[a].id end) do
 			LogFile:Write("-----[ LINE "..line.id.." - CONCENTRATOR " ..concentrator.id.." - SENSOR ]-----", 3)
@@ -254,7 +244,6 @@ function Calibration:ScanSensor()
 		end
 	end
 	LogFile:BackLine(3)
-	LogFile:Debug("Check sensors calibration successfuly end")
 end
 
 function Calibration:Write_Average_Calibration(a, b)
@@ -304,7 +293,6 @@ end
 ----------------------------------------------------------------------------------
 
 function Communication:Init(table)
-	LogFile:Debug("Starting Communication Check")
 	self.comLine = table
 	-------------------------------
 	self:ScanConcentrator()
@@ -406,7 +394,6 @@ end
 
 function Communication:ScanSensor()
 	for uid, line in Main:spairs(self.comLine, function(t,a,b) return t[b].id > t[a].id end) do
-		print("Line: "..line.id)
 		for uid, concentrator in Main:spairs(line.concentrator, function(t,a,b) return t[b].id > t[a].id end) do
 			if Main:tableLength(line.concentrator[concentrator.id].sensor) ~= 0 then
 				LogFile:Write("-----[ LINE "..line.id.." - CONCENTRATOR " ..concentrator.id.." - SENSOR ]-----", 2)
@@ -431,7 +418,6 @@ function Communication:ScanSensor()
 					if not isClose then 
 						openSlave[concentrator.id] = concentrator.id
 						LogFile:Write("WARNING: CONCENTRATOR "..concentrator.id.." NOT CLOSED", 2)
-						print("WARNING CONCENTRATOR "..concentrator.id.." NOT CLOSED") 
 					else
 						openSlave[concentrator.id] = nil
 					end
@@ -518,7 +504,6 @@ function Communication:ScanVms()
 					if not isClose then 
 						openSlave[concentrator.id] = concentrator.id
 						LogFile:Write("WARNING: CONCENTRATOR "..concentrator.id.." NOT CLOSED", 2)
-						print("WARNING CONCENTRATOR "..concentrator.id.." NOT CLOSED") 
 					else
 						openSlave[concentrator.id] = nil
 					end
@@ -606,7 +591,6 @@ function Communication:ScanVmsSortie()
 					if not isClose then 
 						openSlave[concentrator.id] = concentrator.id
 						LogFile:Write("WARNING: CONCENTRATOR "..concentrator.id.." NOT CLOSED", 2)
-						print("WARNING CONCENTRATOR "..concentrator.id.." NOT CLOSED") 
 					else
 						openSlave[concentrator.id] = nil
 					end
@@ -692,7 +676,6 @@ function Communication:ScanAFA()
 					if not isClose then
 						openSlave[concentrator.id] = concentrator.id 
 						LogFile:Write("WARNING: CONCENTRATOR "..concentrator.id.." NOT CLOSED", 2)
-						print("WARNING CONCENTRATOR "..concentrator.id.." NOT CLOSED") 
 					else
 						openSlave[concentrator.id] = nil
 					end
@@ -772,7 +755,6 @@ function Communication:ScanFC(line, fc)
 		end
 
 		if Main:tableLength(array) < 3 then 
-		 	print("WARNING: MISSING SENSOR(S) ON FC")
 		 	LogFile:Write("WARNING: MISSING SENSOR(S) ON FC", 2)
 		 end
 
@@ -783,7 +765,6 @@ function Communication:ScanFC(line, fc)
 		if not isClose then
 			openAFA[fc] = fc
 			LogFile:Write("WARNING: AFALINK "..fc.." NOT CLOSED", 2)
-			print("WARNING AFALINK "..fc.." NOT CLOSED") 
 		else
 			openAFA[fc] = nil
 		end
@@ -872,7 +853,6 @@ function Finder:Load()
 	self:Write_Global_Information()
 	db:Disconnect()
 	os.execute("clear")
-	LogFile:Debug("Log file: successfuly created")
 	-------------------------------------
 	return self.comLine
 end
