@@ -230,7 +230,6 @@ function Calibration:ScanSensor()
 				local isClose= Main:CloseConcentrator(line.id, concentrator.id)
 				if not isClose then
 					LogFile:Write("WARNING: CONCENTRATOR "..concentrator.id.." NOT CLOSED", 3)
-					print("WARNING CONCENTRATOR "..concentrator.id.." NOT CLOSED") 
 				else
 					openSlave[concentrator.id] = nil
 				end
