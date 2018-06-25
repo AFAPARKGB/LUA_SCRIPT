@@ -25,3 +25,4 @@ Script require `LUA` and `LUA-SQL-MYSQL` extension.
   `MySQL Database (master2pc):` Let empty for default value -> master2pc <br />
   `Check Calibration (true):` Let empty for default value -> true <br />
   `Check communication (true):`  Let empty for default value -> true <br />
+* See the folder created by the script `date_log` to check the result
