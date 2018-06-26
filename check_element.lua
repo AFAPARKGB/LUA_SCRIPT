@@ -6,7 +6,7 @@ LogFile = { }
 Main = { }
 
 function Ask_Information()
-	local data = { server = "localhost", user = "root", password = "", database = "master2pc", communication = "true", calibration = "true" }
+	local data = { server = "localhost", user = "root", password = "", database = "master2pc", communication = "true", calibration = "true", packet = 15 }
 	io.write("MySQL Server ("..data.server.."): ")
 	io.flush()
 	local temp = io.read()
@@ -31,6 +31,10 @@ function Ask_Information()
 	io.flush()
 	local temp = io.read()
 	if temp ~= "" then  data.communication = temp end
+	io.write("Packet number to send ("..data.packet.."): ")
+	io.flush()
+	local temp = io.read()
+	if temp ~= "" then  data.packet = temp end
 	return data
 end
 
@@ -104,7 +108,7 @@ function Main:OpenConcentrator(line, concentrator)
 	for i = 1, 5 do
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_115200_ -+ "..concentrator..":1")
 		local result = handle:read("*a")
-		if not string.find(result, "OK") then
+		if string.find(result, "OK") then
 			handle:close()
 			return true 
 		end
@@ -114,10 +118,10 @@ function Main:OpenConcentrator(line, concentrator)
 end
 
 function Main:CloseConcentrator(line, concentrator)
-	for i = 1, 10 do
+	for i = 1, 5 do
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_57600_ -+ "..concentrator..":0")
 		local result = handle:read("*a")
-		if not string.find(result, "OK") then 
+		if string.find(result, "OK") then 
 			handle:close()
 			return true 
 		end
@@ -154,7 +158,7 @@ end
 
 function Main:Split(s)
     result = {};
-    for i in string.gmatch(s, "%S+") do
+    for i in (s):gmatch("([^ ]*)") do
         table.insert(result, i);
     end
     return result;
@@ -287,11 +291,11 @@ end
 
 function Calibration:Calibration_Sensor(line, sensor)
 	local calib = "No communication or Bad calibration value"
-	for i = 1, 20 do
+	for i = 1, 10 do
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_57600_ -a "..sensor.." -k")
 		local result = handle:read("*a")
 		local match = self:Get_Calibration_From_String(result)
-		if match and match < 2000 then
+		if match then
 			handle:close()
 			return result:sub(1, -2)
 		end
@@ -304,7 +308,7 @@ function Calibration:Get_Calibration_From_String(str)
 	local a = Main:Split(str)
 	for i, b in pairs(a) do
 		if b == "cm" then 
-			local match = tonumber(a[i-1])
+			local match = tonumber(a[i-2])
 			if match then return match end
 		end
 	end
@@ -399,17 +403,18 @@ end
 function Communication:Communication_Concentrator(line, concentrator)
 	local packetLose = 0
 	local Version = "Version: not available "
-	for i = 1, 20 do
+	for i = 1, inputData.packet do
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_115200_ -a "..concentrator.." -X")
 		local result = handle:read("*a")
-		if not string.find(result, "Version") then
+		local version = self:FindVersionFromString(result)
+		if not version then
 			packetLose = packetLose + 1
-		elseif Version == "Version: not available " and string.len(result) > 13 then
-			Version = result
+		elseif version then
+			Version = version
 		end
 		handle:close()
 	end
-	return (packetLose*5), Version:sub(1, -2)
+	return (packetLose / inputData.packet) * 100, Version:sub(1, -2)
 end
 
 function Communication:ScanSensor()
@@ -485,17 +490,18 @@ end
 function Communication:Communication_Sensor(line, sensor)
 	local packetLose = 0
 	local Version = "Version: not available "
-	for i = 1, 20 do
+	for i = 1, inputData.packet do
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_57600_ -a "..sensor.." -v 2")
 		local result = handle:read("*a")
-		if not string.find(result, "V") then
+		local version = self:FindVersionFromString(result)
+		if not version then
 			packetLose = packetLose + 1
-		elseif Version == "Version: not available " and not string.find(result, "ERROR IN CRC") and not string.find(result, "ERROR") then
-			Version = result
+		elseif version then
+			Version = version
 		end
 		handle:close()
 	end
-	return (packetLose*5), Version:sub(1, -2)
+	return (packetLose / inputData.packet) * 100, Version:sub(1, -2)
 end
 
 function Communication:ScanVms()
@@ -542,17 +548,18 @@ function Communication:Communication_Vms(line, vms)
 	local packetLose = 0
 	local Version = "Version: not available "
 	local temp = vms + 1
-	for i = 1, 20 do
+	for i = 1, inputData.packet do
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_57600_ -a "..temp.." -v 3")
 		local result = handle:read("*a")
-		if not string.find(result, "V") then
+		local version = self:FindVersionFromString(result)
+		if not version then
 			packetLose = packetLose + 1
-		elseif Version == "Version: not available " and not string.find(result, "ERROR IN CRC") and not string.find(result, "ERROR") then
-			Version = result
+		elseif version then
+			Version = version
 		end
 		handle:close()
 	end
-	return (packetLose*5), Version:sub(1, -2)
+	return (packetLose / inputData.packet) * 100, Version:sub(1, -2)
 end
 
 function Communication:WriteVmsError(table)
@@ -628,17 +635,18 @@ end
 function Communication:Communication_VmsSortie(line, vms)
 	local packetLose = 0
 	local Version = "Version: not available "
-	for i = 1, 20 do
+	for i = 1, inputData.packet do
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_57600_ -a "..vms.." -v 3")
 		local result = handle:read("*a")
-		if not string.find(result, "V") then
+		local version = self:FindVersionFromString(result)
+		if not version then
 			packetLose = packetLose + 1
-		elseif Version == "Version: not available " and not string.find(result, "ERROR IN CRC") and not string.find(result, "ERROR") then
-			Version = result
+		elseif version then
+			Version = version
 		end
 		handle:close()
 	end
-	return (packetLose*5), Version:sub(1, -2)
+	return (packetLose / inputData.packet) * 100, Version:sub(1, -2)
 end
 
 function Communication:WriteVmsSortieError(table)
@@ -714,17 +722,18 @@ end
 function Communication:Communication_AFALINK(line, afa)
 	local packetLose = 0
 	local Version = "Version: not available "
-	for i = 1, 20 do
+	for i = 1, inputData.packet do
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_57600_ -a "..afa.." -v 4")
 		local result = handle:read("*a")
-		if not string.find(result, "V") then
+		local version = self:FindVersionFromString(result)
+		if not version then
 			packetLose = packetLose + 1
-		elseif Version == "Version: not available " and not string.find(result, "ERROR IN CRC") and not string.find(result, "ERROR") then
-			Version = result
+		elseif version then
+			Version = version
 		end
 		handle:close()
 	end
-	return (packetLose*5), Version:sub(1, -2)
+	return (packetLose / inputData.packet) * 100, Version:sub(1, -2)
 end
 
 function Communication:WriteAFAError(table)
@@ -796,8 +805,8 @@ end
 
 function Communication:Find_FC_Sensor(line)
 	local address = { }
-	for i = 0, 3 do
-		for j = 0, 10 do
+	for i = 0, 5 do
+		for j = 0, 20 do
 			if address[i] == nil then
 				local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_57600_ -a "..i.." -v 2")
 				local result = handle:read("*a")
@@ -814,17 +823,18 @@ end
 function Communication:Communication_FC(line, b)
 	local packetLose = 0
 	local Version = "Version: not available "
-	for i = 1, 20 do
+	for i = 1, inputData.packet do
 		local handle = io.popen("sudo ./setconfig -I 01-0"..line.."_57600_ -a "..b.." -v 2")
 		local result = handle:read("*a")
-		if not string.find(result, "V") then
+		local version = self:FindVersionFromString(result)
+		if not version then
 			packetLose = packetLose + 1
-		elseif Version == "Version: not available " and not string.find(result, "ERROR IN CRC") and not string.find(result, "ERROR") then
-			Version = result
+		elseif version then
+			Version = version
 		end
 		handle:close()
 	end
-	return (packetLose*5), Version:sub(1, -2)
+	return (packetLose / inputData.packet) * 100, Version:sub(1, -2)
 end
 
 function Communication:WriteFCError(table)
@@ -854,6 +864,15 @@ function Communication:WriteFCWarning(table)
 	end
 	if string ~= "" then
 		LogFile:Write("FC Sensor with bad commnication address list: "..string, 2)
+	end
+end
+
+function Communication:FindVersionFromString(str)
+	local a = Main:Split(str)
+	for i, b in pairs(a) do
+		if b == "V" or b == "Version" then
+			if string.find(a[i+4], "C") then return a[i+4] end
+		end
 	end
 end
 
