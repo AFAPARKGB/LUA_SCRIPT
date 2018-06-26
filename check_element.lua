@@ -871,7 +871,7 @@ function Communication:FindVersionFromString(str)
 	local a = Main:Split(str)
 	for i, b in pairs(a) do
 		if b == "V" or b == "Version" then
-			if string.find(a[i+4], "C") then return a[i+4] end
+			if string.find(a[i+4], "C") or string.find(a[i+4], "K") then return a[i+4] end
 		end
 	end
 end
